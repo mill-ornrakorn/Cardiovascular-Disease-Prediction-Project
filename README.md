@@ -15,7 +15,7 @@ Project นี้เป็นส่วนหนึ่งของรายวิ
 เป็นข้อมูลเกี่ยวกับโรดหัวใจและหลอดเลือดของคนไข้ทั้ง 70,000 คน โดยมีผู้ป่วยเป็นโรคหัวใจและหลอดเลือด 34,979 คน และผู้ป่วยที่ไม่เป็นโรคหัวใจและหลอดเลือด 35,021
 คน สามารถเข้าถึงได้โดย https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
 
-![CardiovascularDiseaseDataset](https://github.com/mill-ornrakorn/CPE378-Machine-Learning/blob/main/Final%20Project/pic/3.jpg?raw=true)
+![CardiovascularDiseaseDataset](https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic/3.jpg?raw=true)
 Cardiovascular Disease Dataset มีทั้งหมด 70,000 datapoints โดยประกอบด้วย 12 Columns ดังนี้
 - age (อายุ) มีหน่วยเป็น วัน (days)
 - weight (น้ำหนัก) มีหน่วยเป็นกิโลกรัม (kg)
@@ -35,12 +35,12 @@ Cardiovascular Disease Dataset มีทั้งหมด 70,000 datapoints โ
 หรือ[สไลด์](https://github.com/mill-ornrakorn/CPE378-Machine-Learning/blob/main/Final%20Project/%E0%B8%AD%E0%B9%8B%E0%B8%AD%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1_CPE378_%2BFinal%2BProject_%E0%B8%AD%E0%B9%8B%E0%B8%AD%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1_ppt.pdf) นะคะ
 
 **2. Synthetic Dataset**
-![SyntheticDataset](https://github.com/mill-ornrakorn/CPE378-Machine-Learning/blob/main/Final%20Project/pic/4.jpg?raw=true)
+![SyntheticDataset](https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic/4.jpg?raw=true)
 
 ### 📝ขั้นตอนการออกแบบการวิเคราะห์
-![algorithm](https://github.com/mill-ornrakorn/CPE378-Machine-Learning/blob/main/Final%20Project/pic/1.jpg?raw=true)
+![algorithm](https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic/1.jpg?raw=true)
 
 
 ### 📋สรุปผลการวิเคราะห์
-![result](https://github.com/mill-ornrakorn/CPE378-Machine-Learning/blob/main/Final%20Project/pic/2.jpg?raw=true)
+![result](https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic/2.jpg?raw=true)
 
