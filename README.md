@@ -1,5 +1,5 @@
 ## Cardiovascular Disease Prediction Project ❤🩺
-Project นี้เป็นส่วนหนึ่งของรายวิชา CPE 378 การเรียนรู้ของเครื่อง (Machine Learning) สาขาวิชาวิทยาศาสตร์ข้อมูลสุขภาพ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี ภาคเรียนที่ 2 ปีการศึกษา 2564
+Project นี้เป็นส่วนหนึ่งของรายวิชา CPE 378 การเรียนรู้ของเครื่อง (Machine Learning) สาขาวิชาวิทยาศาสตร์ข้อมูลสุขภาพ [มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี](https://www.kmutt.ac.th/en/) ภาคเรียนที่ 2 ปีการศึกษา 2564
 
 
 ### 🙋‍♀️Group: อ๋อชื่อกลุ่ม
@@ -92,7 +92,7 @@ Cardiovascular Disease Dataset มีทั้งหมด 70,000 datapoints โ
 **1. ตรวจสอบข้อมูล**
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/6.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/6.jpg?raw=true" alt= "" height="300">
 </p>
 
 จากการตรวจสอบข้อมูล พบว่า มี 70,000 datapoints และประกอบด้วย 12 Columns โดย
@@ -100,7 +100,7 @@ Cardiovascular Disease Dataset มีทั้งหมด 70,000 datapoints โ
 
 **2. ตรวจสอบ null ของข้อมูล**
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/7.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/7.jpg?raw=true" alt= "" height="300">
 </p>
 
 จากการตรวจสอบ null ในข้อมูล พบว่า ในข้อมูลไม่มี Null
@@ -108,7 +108,7 @@ Cardiovascular Disease Dataset มีทั้งหมด 70,000 datapoints โ
 **3. Descriptive statistics**
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/8_2.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/8_2.jpg?raw=true" alt= "" height="300">
 </p>
 
 
@@ -131,7 +131,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 **4. สรุปการกระจายตัวของข้อมูล และสัดส่วนของข้อมูลแต่ละ Columns ในข้อมูล**
 - age
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/9.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/9.jpg?raw=true" alt= "" height="300">
 </br>
 แปลง age Column ให้มีหน่วยเป็น ปี
 
@@ -139,14 +139,14 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/10.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/10.jpg?raw=true" alt= "" height="300">
 </br>
 การกระจายตัวของ age Column
 </p>
 
 - gender
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/11.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/11.jpg?raw=true" alt= "" height="300">
 </br>
 การแสดงสัดส่วนของข้อมูล gender Column โดย 1 หมายถึง เพศหญิง ส่วน 2 หมายถึง เพศชาย
 
@@ -156,7 +156,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 - height
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/12.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/12.jpg?raw=true" alt= "" height="300">
 
 </p>
 
@@ -164,7 +164,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 - weight
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/13.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/13.jpg?raw=true" alt= "" height="300">
 
 </p>
 
@@ -172,7 +172,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 - ap_hi
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/14.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/14.jpg?raw=true" alt= "" height="300">
 
 </p>
 
@@ -180,7 +180,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 - ap_lo
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/15.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/15.jpg?raw=true" alt= "" height="300">
 
 </p>
 
@@ -188,7 +188,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 - cholesterol
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/16.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/16.jpg?raw=true" alt= "" height="300">
 </br>
 การแสดงสัดส่วนของข้อมูล cholesterol Column โดย 1 หมายถึง ปกติ 2 หมายถึง ผิดปกติ 3 หมายถึง ผิดปกติมาก
 
@@ -197,7 +197,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 - gluc 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/17.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/17.jpg?raw=true" alt= "" height="300">
 </br>
 การแสดงสัดส่วนของข้อมูล cholesterol Column โดย 1 หมายถึง ปกติ 2 หมายถึง ผิดปกติ 3 หมายถึง ผิดปกติมาก
 
@@ -206,7 +206,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 - smoke
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/18.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/18.jpg?raw=true" alt= "" height="300">
 </br>
 การแสดงสัดส่วนของข้อมูล smoke Column โดย 0 หมายถึง ไม่สูบ 1 หมายถึง สูบ
 
@@ -215,7 +215,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 - alco
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/19.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/19.jpg?raw=true" alt= "" height="300">
 </br>
 การแสดงสัดส่วนของข้อมูล alco Column โดย 0 หมายถึง ไม่ดื่ม 1 หมายถึง ดื่ม
 
@@ -224,7 +224,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 - active
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/20.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/20.jpg?raw=true" alt= "" height="300">
 </br>
 การแสดงสัดส่วนของข้อมูล active Column โดย 0 หมายถึง ไม่ออกกำลังกาย 1 หมายถึง ออกกำลังกาย
 
@@ -233,7 +233,7 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 
 - cardio
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/21.jpg?raw=true" alt= "" height="200">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/21.jpg?raw=true" alt= "" height="300">
 </br>
 การแสดงสัดส่วนของข้อมูล cardio Column โดย 0 หมายถึง ไม่ป่วยเป็นโรคหลอดเลือดหัวใจ 1 หมายถึง ป่วยเป็นโรคหลอดเลือดหัวใจ
 
@@ -254,7 +254,7 @@ Cardiovascular Disease Dataset</b></summary>
 ออก โดยวิธีดังนี้
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/22.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/22.jpg?raw=true" alt= "" height="300">
 </p>
 
 
@@ -269,7 +269,7 @@ Cardiovascular Disease Dataset</b></summary>
 ออก โดยวิธีดังนี้
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/23.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/23.jpg?raw=true" alt= "" height="300">
 </p>
 
 
@@ -282,14 +282,14 @@ Cardiovascular Disease Dataset</b></summary>
 
 การเพิ่ม BMI Column มีวิธีดังนี้
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/24.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/24.jpg?raw=true" alt= "" height="300">
 </br>
 แสดงขั้นตอนการเพิ่ม BMI Column
 
 </p>
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/24_1.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/24_1.jpg?raw=true" alt= "" height="300">
 
 </br>
 Descriptive statistics ของ Cardiovascular Disease Dataset หลังจากเพิ่ม BMI Column ซึ่งยังมีความผิดปกติตรงค่า Min และ ค่า Max อยู่
@@ -300,7 +300,7 @@ Descriptive statistics ของ Cardiovascular Disease Dataset หลังจ�
 </p>
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/25.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/25.jpg?raw=true" alt= "" height="300">
 </br>
 แสดงขั้นตอนการลบข้อมูลที่มีความผิดปกติ ใน BMI และ Descriptive statistics หลังจากลบข้อมูลที่มีความผิดปกติแล้ว
 </p>
@@ -308,7 +308,7 @@ Descriptive statistics ของ Cardiovascular Disease Dataset หลังจ�
 
 **4. การเปลี่ยนแปลงข้อมูลใน gender, cholesterol, gluc Column**
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/26.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/26.jpg?raw=true" alt= "" height="300">
 
 </p>
 
@@ -318,7 +318,7 @@ Descriptive statistics ของ Cardiovascular Disease Dataset หลังจ�
 
 **5. การเปลี่ยนแปลงหน่วยของข้อมูลใน age Column** 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/27.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/27.jpg?raw=true" alt= "" height="300">
 
 </p>
 
@@ -331,12 +331,12 @@ Descriptive statistics ของ Cardiovascular Disease Dataset หลังจ�
 
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/28.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/28.jpg?raw=true" alt= "" height="330">
 
 </p>
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/29.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/29.jpg?raw=true" alt= "" height="300">
 
 </p>
 
@@ -359,11 +359,140 @@ Descriptive statistics ของ Cardiovascular Disease Dataset หลังจ�
 <details>
 <summary><b><h3>1. ผลลัพธ์การวิเคราะห์จาก Cardiovascular Disease Dataset</b></summary>
 
+**1.1 Logistic Regression Classifier โดยการใช้ GridSearchCV()**
+
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/30.jpg?raw=true" alt= "" height="300">
+
+</p>
+
+การฝึกโมเดล Logistic Regression โดยนำอัลกอริทึม  GridSearchCV() มาใช้ในการหาพารามิเตอร์ที่เหมาะสม ที่ทำให้โมเดลได้ค่าความถูกต้องสูงสุด ซึ่งพารามิเตอร์ที่ทำการปรับค่า มีดังนี้
+- C  : Inverse of regularization strength 
+Regularization คือ เทคนิคในการปรับโมเดลเพื่อลดค่า loss function และป้องกันไม่ให้โมเดลจำเพาะต่อข้อมูลน้อยหรือมากเกินไป (underfitting or overfitting)
+ดังนั้นเมื่อเรากำหนด ค่า C ให้มีค่าสูง เป็นการให้ความสำคัญ (weight) กับชุดข้อมูลที่ใช้ฝึกโมเดล
+- solver :  อัลกอริทึมที่ใช้ในขั้นตอนการลดค่า loss function หรือกระบวนการ optimization
+- max_iter : จำนวนรอบสูงสุดในการดำเนินการตาม solver เพื่อหาจุดที่ค่า loss function ไม่เปลี่ยนแปลงค่า (converge)
+
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/31.jpg?raw=true" alt= "" height="250">
+
+</p>
+
+
+การฝึกโมเดล Logistic Regression โดยนำอัลกอริทึม GridSearchCV() ใช้ทั้งหมด 140
+combinations โดยฝึกโมเดลด้วยชุดข้อมูลที่แบ่งด้วยเทคนิค Cross Validation ออกเป็น 5 ส่วน ผลลัพธ์
+combination ที่ดีที่สุดคือ *{'C': 0.1, 'max iter': 2500, 'solver': 'liblinear'}*
+
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/32.jpg?raw=true" alt= "" height="300">
+
+</p>
+
+Logistic regression combination ที่ดีที่สุดได้ค่าความถูกต้องของชุดข้อมูลฝึกและชุดข้อมูลทดสอบเท่ากับ 72.17% และ 72.66% ตามลำดับ
+
+
+**1.2 Random Forest Classifier โดยการใช้ GridSearchCV()**
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/33.jpg?raw=true" alt= "" height="300">
+
+</p>
+
+การฝึกโมเดล Random Forest โดยนำอัลกอริทึม  GridSearchCV() มาใช้ในการหาพารามิเตอร์ที่เหมาะสม ที่ทำให้โมเดลได้ค่าความถูกต้องสูงสุด ซึ่งพารามิเตอร์ที่ทำการปรับค่า มีดังนี้
+- n_estimators : จำนวนของต้นไม้ที่ใช้ในการทำนาย
+- max_depth : ความลึกสูงสุดของต้นไม้ การเพิ่มค่านี้จะทำให้โมเดลซับซ้อนขึ้น 
+- max_features : จำนวน feature ที่ใช้พิจารณาในการแบ่ง node
+- min_samples_leaf : จำนวนข้อมูลที่น้อยที่สุดใน 1 leaf node
+- min_samples_split : จำนวนข้อมูลที่น้อยที่สุดในการแบ่ง node
+- criterion : ฟังก์ชั่นที่ใช้ในการวัดความสามารถในการแบ่ง
+- class_weight : ค่า weight สำหรับแต่ละ class 
+- bootstrap : เทคนิคในการใช้ bootstrap samples ในการสร้างต้นไม้
+
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/34.jpg?raw=true" alt= "" height="250">
+
+</p>
+
+การฝึกโมเดล Random Forest โดยนำอัลกอริทึม  GridSearchCV() ใช้ทั้งหมด 1080 combinations โดยฝึกโมเดลด้วยชุดข้อมูลที่แบ่งด้วยเทคนิค Cross Validation ออกเป็น 5 ส่วน ผลลัพธ์ combination ที่ดีที่สุดคือ *{'bootstrap': True, 'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 8, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 200}*
+
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/35.jpg?raw=true" alt= "" height="300">
+
+</p>
+Random Forest combination ที่ดีที่สุดได้ค่าความถูกต้องของชุดข้อมูลฝึกและชุดข้อมูลทดสอบเท่ากับ 73.75% และ 73.26% ตามลำดับ
+
+
+
+**1.3 eXtreme Gradient Boosting (xGB) โดยการใช้ GridSearchCV()**
+
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/36.jpg?raw=true" alt= "" height="300">
+
+</p>
+
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/37.jpg?raw=true" alt= "" height="300">
+
+</p>
+
+การฝึกโมเดล  eXtreme Gradient Boosting (xGB) โดยนำอัลกอริทึม gridsearchcv มาใช้ในการหาพารามิเตอร์ที่เหมาะสม ที่ทำให้โมเดลได้ค่าความถูกต้องสูงสุด ซึ่งพารามิเตอร์ที่ทำการปรับค่า มีดังนี้
+
+- colsample_bytree : คืออัตราส่วน subsample ของคอลัมน์เมื่อสร้างต้นไม้แต่ละต้น การสุ่มตัวอย่างจะเกิดขึ้นครั้งเดียวสำหรับต้นไม้ทุกต้นที่สร้าง
+- gamma : คือการลด Minimum loss ในการแบ่งเพิ่มเติมบน leaf node ของต้นไม้ ยิ่งแกมมามากเท่าไร อัลกอริธึมก็จะยิ่งอนุรักษ์ค่า gamma มากขึ้นเท่านั้น
+- learning_rate : เป็น parameter ที่ควบคุมว่าจะเปลี่ยนแปลงค่า weight มากหรือน้อยเท่าไหร่ของ Model ใน 1 Step ของ Training ถ้าปรับไว้มากเกินไปจะทำให้คำตอบของ Model ไม่ลู่เข้าสู่คำตอบจริงหรือจุดที่เป็น Global Minimum แต่ถ้าปรับไว้น้อยเกินไปจะทำให้ใช้เวลาในการ Train นานขึ้น
+- Max_depth : ความลึกสูงสุดของต้นไม้ การเพิ่มค่านี้จะทำให้โมเดลซับซ้อนขึ้น ถ้ากำหนดค่า Max_depth = 0 หมายถึงไม่จำกัดความลึก ซึ่งสิ่งที่ควรต้องระวังคือ XGBoost จะใช้หน่วยความจำเยอะดังนั้นจึงไม่ควรกำหนดให้ Max_depth = 0 
+- min_child_weight : ผลรวมขั้นต่ำของน้ำหนักอินสแตนซ์ที่จำเป็นสำหรับโหนดลูก หากการแบ่งต้นไม้ให้ค่าน้ำหนักรวมของอินสแตนซ์โหนดปลายสุดน้อยกว่า min_child_weight จะยกเลิกการแบ่งเพิ่มเติม 
+- n_estimators : จำนวนของต้นไม้ที่ใช้ในการทำนาย
+- scale_pos_weight : ควบคุมความสมดุลของน้ำหนักบวกและลบ ซึ่งมีประโยชน์สำหรับ class ที่ไม่สมดุล
+
+
+
+
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/38.jpg?raw=true" alt= "" height="300">
+
+</p>
+
+จากการทำ eXtreme Gradient Boosting โดยการใช้ GridSearchCV() เพื่อหา parameter ที่ดีที่สุดจากการ Tuning Parameters วนซ้ำไปเรื่อย ๆ จนได้ Best parameter คือ *{ 'colsample_bytree': 0.5, 'gamma': 1.5, 'learning_rate': 0.01, 'max_depth': 10, 'min_child_weight': 10, 'n_estimators': 100, 'scale_pos_weight': 1 }* ได้ค่าความถูกต้องในการทำนายชุดข้อมูลฝึกและชุดข้อมูลทดสอบเท่ากับ 74.4292% และ 72.8% ตามลำดับ
+
+
+
 </details>
 
 
 <details>
 <summary><b><h3>2. ผลลัพธ์การวิเคราะห์จาก Synthetic Dataset</b></summary>
+
+จากการใช้อัลกอริทึมทั้ง 3 ได้แก่ Logistic Regression, Random Forest และ eXtreme Gradient Boosting สร้างแบบจำลองจากข้อมูล Synthetic Dataset โดยการกำหนดค่า hyperparameters แบบเดียวกับผลลัพธ์จากการทำ GridSearchCV()  สรุปผลลัพธ์มีค่าดังต่อไปนี้
+
+**2.1 Logistic Regression**
+
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/39.jpg?raw=true" alt= "" height="300">
+
+</p>
+
+Logistic regression combination ที่ดีที่สุดได้ค่าความถูกต้องในการทำนายชุดข้อมูลฝึกและชุดข้อมูลทดสอบเท่ากับ 88.93% และ 89.2% ตามลำดับ
+
+
+**2.2 Random Forest**
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/40.jpg?raw=true" alt= "" height="300">
+
+</p>
+
+
+Random Forest combination ที่ดีที่สุดได้ค่าความถูกต้องในการทำนายชุดข้อมูลฝึกและชุดข้อมูลทดสอบเท่ากับ 88.93% และ 89.2% ตามลำดับ
+
+
+**2.3 eXtreme Gradient Boosting**
+<p align="center">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/41.jpg?raw=true" alt= "" height="300">
+
+</p>
+
+
+eXtreme Gradient Boosting combination ที่ดีที่สุดได้ค่าความถูกต้องในการทำนายชุดข้อมูลฝึกและชุดข้อมูลทดสอบเท่ากับ 91.41% และ 91.41% ตามลำดับ
+
 
 </details>
 
