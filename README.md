@@ -8,8 +8,11 @@ Project นี้เป็นส่วนหนึ่งของรายวิ
 - [Chiraphat Phoncharoenwirote](https://github.com/Chiraphatt)
 - [Ornrakorn Mekchaiporn](https://github.com/mill-ornrakorn)
 
+<!-- 
 <details>
 <summary><b><h2>Introduction</b></summary>
+-->
+## 📃Introduction
 
 โรคหัวใจและหลอดเลือด (cardiovascular disease, CVD) เป็นกลุ่มโรคที่เกิดจากความผิดปกติ
 ของหัวใจหรือหลอดเลือด ได้แก่ โรคหลอดเลือดหัวใจ (coronary heart disease) โรคหลอดเลือดสมอง (cerebrovascular disease) โรคเส้นเลือดแดงส่วนปลายอุดตัน (peripheral artery disease) ภาวะ
@@ -25,7 +28,9 @@ Regression Classifier, Random Forest Classifier, และ eXtreme Gradient Boos
 นำมาใช้ในการสร้างแบบจำลองทำนายความเสี่ยงโรคหลอดเลือดหัวใจจากชุดข้อมูล Cardiovascular
 Disease
 
+<!-- 
 </details>
+-->
 
 ## 💡Objectives
 - เพื่อเปรียบเทียบความถูกต้องของอัลกอริทึมทั้ง 3 แบบ ได้แก่ Logistic Regression Classifier, Random Forest Classifier, และ eXtreme Gradient Boosting (XGBoost)
@@ -85,14 +90,16 @@ Cardiovascular Disease Dataset มีทั้งหมด 70,000 datapoints โ
 - gluc (ระดับน้ำตาลในเลือด) 1 หมายถึง ปกติ 2 หมายถึง ผิดปกติ 3 หมายถึง ผิดปกติมาก
 
 
-
+<!-- 
 <details>
 <summary><b><h3>Exploratory Data Analysis (EDA) ใน Cardiovascular Disease Dataset</b></summary>
+-->
+### 📊Exploratory Data Analysis (EDA) ใน Cardiovascular Disease Dataset
 
 **1. ตรวจสอบข้อมูล**
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/6.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/6.jpg?raw=true" alt= "" height="250">
 </p>
 
 จากการตรวจสอบข้อมูล พบว่า มี 70,000 datapoints และประกอบด้วย 12 Columns โดย
@@ -100,7 +107,7 @@ Cardiovascular Disease Dataset มีทั้งหมด 70,000 datapoints โ
 
 **2. ตรวจสอบ null ของข้อมูล**
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/7.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/7.jpg?raw=true" alt= "" height="250">
 </p>
 
 จากการตรวจสอบ null ในข้อมูล พบว่า ในข้อมูลไม่มี Null
@@ -108,7 +115,7 @@ Cardiovascular Disease Dataset มีทั้งหมด 70,000 datapoints โ
 **3. Descriptive statistics**
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/8_2.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/8_2.jpg?raw=true" alt= "" height="250">
 </p>
 
 
@@ -240,11 +247,14 @@ mmHg เพราะจะกลายเป็น emergency case [(8)](https://
 </p>
 จากการแสดงสัดส่วนของข้อมูล cardio Column พบว่า มีจำนวนผู้ป่วยที่ไม่ป่วยเป็นโรคหลอดเลือดหัวใจ(0) และจำนวนผู้ป่วยที่ป่วยเป็นโรคหลอดเลือดหัวใจ(1) ใกล้เคียงกัน
 
-</details>
+<!--</details>
 
 <details>
 <summary><b><h3>Data Preparation ใน
 Cardiovascular Disease Dataset</b></summary>
+-->
+
+### 🧹 Data Preparation ใน Cardiovascular Disease Dataset
 
 **1. การจัดการข้อมูลที่มีความผิดปกติใน ap_hi Column หรือ ความดันช่วงหัวใจบีบตัว**
 
@@ -289,7 +299,7 @@ Cardiovascular Disease Dataset</b></summary>
 </p>
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/24_1.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/24_1.jpg?raw=true" alt= "" height="250">
 
 </br>
 Descriptive statistics ของ Cardiovascular Disease Dataset หลังจากเพิ่ม BMI Column ซึ่งยังมีความผิดปกติตรงค่า Min และ ค่า Max อยู่
@@ -331,12 +341,12 @@ Descriptive statistics ของ Cardiovascular Disease Dataset หลังจ�
 
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/28.jpg?raw=true" alt= "" height="330">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/28.jpg?raw=true" alt= "" height="400">
 
 </p>
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/29.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/29.jpg?raw=true" alt= "" height="350">
 
 </p>
 
@@ -356,13 +366,16 @@ Descriptive statistics ของ Cardiovascular Disease Dataset หลังจ�
 ![algorithm](https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/1.jpg?raw=true)
 
 ### 📑ผลลัพธ์การวิเคราะห์
+<!--
 <details>
 <summary><b><h3>1. ผลลัพธ์การวิเคราะห์จาก Cardiovascular Disease Dataset</b></summary>
+-->
+### 1. ผลลัพธ์การวิเคราะห์จาก Cardiovascular Disease Dataset
 
 **1.1 Logistic Regression Classifier โดยการใช้ GridSearchCV()**
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/30.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/30.jpg?raw=true" alt= "" height="500">
 
 </p>
 
@@ -374,7 +387,7 @@ Regularization คือ เทคนิคในการปรับโมเ�
 - max_iter : จำนวนรอบสูงสุดในการดำเนินการตาม solver เพื่อหาจุดที่ค่า loss function ไม่เปลี่ยนแปลงค่า (converge)
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/31.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/31.jpg?raw=true" alt= "" height="60">
 
 </p>
 
@@ -384,7 +397,7 @@ combinations โดยฝึกโมเดลด้วยชุดข้อม�
 combination ที่ดีที่สุดคือ *{'C': 0.1, 'max iter': 2500, 'solver': 'liblinear'}*
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/32.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/32.jpg?raw=true" alt= "" height="250">
 
 </p>
 
@@ -393,7 +406,7 @@ Logistic regression combination ที่ดีที่สุดได้ค่
 
 **1.2 Random Forest Classifier โดยการใช้ GridSearchCV()**
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/33.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/33.jpg?raw=true" alt= "" height="600">
 
 </p>
 
@@ -408,14 +421,14 @@ Logistic regression combination ที่ดีที่สุดได้ค่
 - bootstrap : เทคนิคในการใช้ bootstrap samples ในการสร้างต้นไม้
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/34.jpg?raw=true" alt= "" height="250">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/34.jpg?raw=true" alt= "" height="80">
 
 </p>
 
 การฝึกโมเดล Random Forest โดยนำอัลกอริทึม  GridSearchCV() ใช้ทั้งหมด 1080 combinations โดยฝึกโมเดลด้วยชุดข้อมูลที่แบ่งด้วยเทคนิค Cross Validation ออกเป็น 5 ส่วน ผลลัพธ์ combination ที่ดีที่สุดคือ *{'bootstrap': True, 'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 8, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 200}*
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/35.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/35.jpg?raw=true" alt= "" height="250">
 
 </p>
 Random Forest combination ที่ดีที่สุดได้ค่าความถูกต้องของชุดข้อมูลฝึกและชุดข้อมูลทดสอบเท่ากับ 73.75% และ 73.26% ตามลำดับ
@@ -425,12 +438,12 @@ Random Forest combination ที่ดีที่สุดได้ค่าค
 **1.3 eXtreme Gradient Boosting (xGB) โดยการใช้ GridSearchCV()**
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/36.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/36.jpg?raw=true" alt= "" height="450">
 
 </p>
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/37.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/37.jpg?raw=true" alt= "" height="550">
 
 </p>
 
@@ -455,19 +468,22 @@ Random Forest combination ที่ดีที่สุดได้ค่าค
 จากการทำ eXtreme Gradient Boosting โดยการใช้ GridSearchCV() เพื่อหา parameter ที่ดีที่สุดจากการ Tuning Parameters วนซ้ำไปเรื่อย ๆ จนได้ Best parameter คือ *{ 'colsample_bytree': 0.5, 'gamma': 1.5, 'learning_rate': 0.01, 'max_depth': 10, 'min_child_weight': 10, 'n_estimators': 100, 'scale_pos_weight': 1 }* ได้ค่าความถูกต้องในการทำนายชุดข้อมูลฝึกและชุดข้อมูลทดสอบเท่ากับ 74.4292% และ 72.8% ตามลำดับ
 
 
-
+<!--
 </details>
 
 
 <details>
 <summary><b><h3>2. ผลลัพธ์การวิเคราะห์จาก Synthetic Dataset</b></summary>
+-->
+
+### 2. ผลลัพธ์การวิเคราะห์จาก Synthetic Dataset
 
 จากการใช้อัลกอริทึมทั้ง 3 ได้แก่ Logistic Regression, Random Forest และ eXtreme Gradient Boosting สร้างแบบจำลองจากข้อมูล Synthetic Dataset โดยการกำหนดค่า hyperparameters แบบเดียวกับผลลัพธ์จากการทำ GridSearchCV()  สรุปผลลัพธ์มีค่าดังต่อไปนี้
 
 **2.1 Logistic Regression**
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/39.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/39.jpg?raw=true" alt= "" height="140">
 
 </p>
 
@@ -476,7 +492,7 @@ Logistic regression combination ที่ดีที่สุดได้ค่
 
 **2.2 Random Forest**
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/40.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/40.jpg?raw=true" alt= "" height="200">
 
 </p>
 
@@ -486,7 +502,7 @@ Random Forest combination ที่ดีที่สุดได้ค่าค
 
 **2.3 eXtreme Gradient Boosting**
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/41.jpg?raw=true" alt= "" height="300">
+<img src="https://github.com/mill-ornrakorn/Cardiovascular-Disease-Prediction-Project/blob/main/pic%20for%20readme/41.jpg?raw=true" alt= "" height="270">
 
 </p>
 
@@ -494,7 +510,7 @@ Random Forest combination ที่ดีที่สุดได้ค่าค
 eXtreme Gradient Boosting combination ที่ดีที่สุดได้ค่าความถูกต้องในการทำนายชุดข้อมูลฝึกและชุดข้อมูลทดสอบเท่ากับ 91.41% และ 91.41% ตามลำดับ
 
 
-</details>
+<!-- </details> -->
 
 ### 📋สรุปผลการวิเคราะห์
 <p align="center">
